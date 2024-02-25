@@ -9,8 +9,8 @@ body {
     text-align: center; 
 }
 .p-about-me{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 180px;
 }
 .p-about-me p{
     text-indent:50px;
@@ -18,4 +18,10 @@ body {
 
 .nav-menu nav a{
     margin-right: 30px;
+}
+.title-skill{
+    text-align: center; 
+}
+.title-contact{
+    text-align: center; 
 }

@@ -25,3 +25,67 @@ body {
 .title-contact{
     text-align: center; 
 }
+.title-portfolio{
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .search-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  .search-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px; /* กำหนดระยะห่างระหว่างแต่ละช่อง */
+    margin-top: 10px;
+    padding: 20px;
+    
+  }
+  .left-portfolio,
+  .right-portfolio {
+    flex: 1;
+  }
+  .portfolio-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    max-width: 50%;
+   
+  }
+  .portfolio-item img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50px;
+    width: 100%; /* กำหนดให้ภาพขนาดเต็มกว้างภายในพื้นที่ที่มีอยู่ */
+    height: auto; /* ให้รักษาอัตราส่วน */
+    border-radius: 10px;
+    text-align: center;
+
+  }
+  .portfolio-text {
+    flex: 1; /* เพื่อให้ข้อความนั้นรับพื้นที่ทั้งหมดที่เหลือ */
+    padding: 20px;
+}
+
+
+
+  
+

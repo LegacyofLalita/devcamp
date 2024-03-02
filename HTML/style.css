@@ -84,6 +84,36 @@ body {
     flex: 1; /* เพื่อให้ข้อความนั้นรับพื้นที่ทั้งหมดที่เหลือ */
     padding: 20px;
 }
+.gender{
+  display: flex;
+}
+input[type="radio"]{
+  margin-right: 2px;
+}
+h1{
+  color:black;
+}
+form{
+  border: 2px solid black;
+  width:fit-content 1px;
+  padding: 5px;
+}
+button[type="submit"]{
+  background-color:lightgray;
+  color: black;
+  border: 0px;
+}
+button[type="reset"]{
+  background-color:lightgrey;
+  color: black;
+  border: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 
 
